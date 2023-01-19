@@ -11,11 +11,9 @@ Em terminais diferentes execute o servidor, e depois execute o cliente
 $ ./server
 ```
 ```
-$ ./client
+$ ./client [PID Number] [Message]
 ```
-##
-![server](./gifs/server.gif)
-![client](./gifs/client.gif)
 
-<img src="http://i.stack.imgur.com/SBv4T.gif" width="250" alt="" />
-<img src="http://i.stack.imgur.com/SBv4T.gif" width="250" alt=""/>
+SERVER                        |  CLIENT
+:----------------------------:|:------------------------------:
+![server](./gifs/server.gif)  |  ![client](./gifs/client.gif)
