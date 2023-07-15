@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joapedr2 <jpedrones@hotmail.com>           +#+  +:+       +#+        */
+/*   By: joapedr2 < joapedr2@student.42sp.org.br    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/30 00:11:14 by joapedr2          #+#    #+#             */
-/*   Updated: 2022/07/15 22:07:47 by joapedr2         ###   ########.fr       */
+/*   Updated: 2023/07/15 16:21:11 by joapedr2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,9 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include "libft.h"
 
 char	*get_next_line(int fd);
-
-char	*ft_strchr(const char *str, int c);
-size_t	ft_strlen(const char *str);
-char	*ft_strdup(const char *str);
-char	*ft_strjoin(char const *s1, char const *s2);
-char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 10
